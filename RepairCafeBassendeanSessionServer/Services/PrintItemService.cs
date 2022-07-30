@@ -7,8 +7,8 @@ namespace RepairCafeBassendeanSessionServer.Services
     public class PrintItemService : PrintItem.PrintItemBase
     {
         private readonly ILogger<PrintItemService> _logger;
-        private const string TEMPLATE_DIRECTORY = @"C:\RCBAPP\Templates\"; // Template file path
-        private const string TEMPLATE_SIMPLE = "testrcb.lbx";    // Template file name
+        //private const string TEMPLATE_DIRECTORY = @"C:\RCBAPP\Templates\"; // Template file path
+        //private const string TEMPLATE_SIMPLE = "testrcb.lbx";    // Template file name
 
         public PrintItemService(ILogger<PrintItemService> logger)
         {
@@ -17,8 +17,8 @@ namespace RepairCafeBassendeanSessionServer.Services
 
         public override Task<PrintReply> PrintItem(RepairItemRequest request, ServerCallContext context)
         {
-            string templatePath = TEMPLATE_DIRECTORY;
-            templatePath += TEMPLATE_SIMPLE;// None decoration frame
+            string templatePath = "RCB_TBA_LABEL.lbx";
+            //templatePath += TEMPLATE_SIMPLE;// None decoration frame
             string result;
 
             bpac.Document doc = new();

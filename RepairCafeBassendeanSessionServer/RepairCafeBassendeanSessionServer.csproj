@@ -8,8 +8,8 @@
     <Platforms>AnyCPU;x64</Platforms>
     <ApplicationIcon>file_001_gsm_icon.ico</ApplicationIcon>
 	<IsPackable>true</IsPackable>
-	<AssemblyVersion>1.0.1.0</AssemblyVersion>
-	<FileVersion>1.0.1.0</FileVersion>
+	<AssemblyVersion>1.0.2.0</AssemblyVersion>
+	<FileVersion>1.0.2.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
