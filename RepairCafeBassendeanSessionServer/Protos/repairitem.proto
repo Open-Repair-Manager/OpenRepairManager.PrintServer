@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "RepairCafeBassendeanSessionServer";
+option csharp_namespace = "OpenRepairManager.PrintServer";
 
 package repairitem;
 

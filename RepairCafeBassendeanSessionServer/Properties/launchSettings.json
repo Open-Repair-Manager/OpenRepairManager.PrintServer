@@ -1,6 +1,6 @@
 ﻿{
   "profiles": {
-    "RepairCafeBassendeanSessionServer": {
+    "OpenRepairManager.PrintServer": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,

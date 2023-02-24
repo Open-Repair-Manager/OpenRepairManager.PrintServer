@@ -1,8 +1,8 @@
 ﻿using Grpc.Core;
-using RepairCafeBassendeanSessionServer;
+using OpenRepairManager.PrintServer;
 using bpac;
 
-namespace RepairCafeBassendeanSessionServer.Services
+namespace OpenRepairManager.PrintServer.Services
 {
     public class PrintItemService : PrintItem.PrintItemBase
     {

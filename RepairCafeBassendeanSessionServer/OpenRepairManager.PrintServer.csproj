@@ -8,8 +8,8 @@
     <Platforms>AnyCPU;x64</Platforms>
     <ApplicationIcon>file_001_gsm_icon.ico</ApplicationIcon>
 	<IsPackable>true</IsPackable>
-	<AssemblyVersion>1.0.2.0</AssemblyVersion>
-	<FileVersion>1.0.2.0</FileVersion>
+	<AssemblyVersion>1.0.3.0</AssemblyVersion>
+	<FileVersion>1.0.3.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -34,11 +34,16 @@
 
   <ItemGroup>
     <Protobuf Include="Protos\repairitem.proto" GrpcServices="Server" />
-    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.40.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="RCB_TBA_LABEL.lbx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
